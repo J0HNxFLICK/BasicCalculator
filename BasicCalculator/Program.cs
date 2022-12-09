@@ -11,6 +11,7 @@
             Console.WriteLine("Enter first value : ");
             int secondValue = Convert.ToInt32(Console.ReadLine());
             calculator.addition(firstValue, secondValue);
+            calculator.substraction(firstValue, secondValue);
         }
     }
 }
